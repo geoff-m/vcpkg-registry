@@ -1,6 +1,6 @@
 {
   "name": "stringpool",
-  "version-string": "1.0.0",
+  "version": "1.0.0",
   "description": "String interning library",
   "homepage": "https://github.com/geoff-m/stringpool"
 }
