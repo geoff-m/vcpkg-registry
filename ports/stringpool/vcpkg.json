@@ -5,9 +5,11 @@
   "homepage": "https://github.com/geoff-m/stringpool",
   "license": "BSD-2-Clause",
   "dependencies": [
+    "gtest",
     {
       "name": "vcpkg-cmake",
       "host": true
-    }
+    },
+    "xxhash"
   ]
 }
