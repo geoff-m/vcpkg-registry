@@ -2,5 +2,12 @@
   "name": "stringpool",
   "version": "1.0.0",
   "description": "String interning library",
-  "homepage": "https://github.com/geoff-m/stringpool"
+  "homepage": "https://github.com/geoff-m/stringpool",
+  "license": "BSD-2-Clause",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
 }
