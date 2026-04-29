@@ -12,4 +12,4 @@ vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
 
 vcpkg_cmake_install()
 
-vcpkg_install_copyright("${SOURCE_PATH}/LICENSE")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
