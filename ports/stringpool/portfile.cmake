@@ -18,3 +18,6 @@ vcpkg_cmake_config_fixup(
     PACKAGE_NAME "${PORT}"
     CONFIG_PATH "lib/cmake/${PORT}"
 )
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share/stringpool")
