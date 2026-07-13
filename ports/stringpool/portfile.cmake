@@ -13,3 +13,8 @@ vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
 vcpkg_cmake_install()
 
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
+
+vcpkg_cmake_config_fixup(
+    PACKAGE_NAME "${PORT}"
+    CONFIG_PATH "lib/cmake/${PORT}"
+)
