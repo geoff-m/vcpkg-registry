@@ -1,9 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO geoff-m/stringpool
-    REF 3da9aba0fedf7c1ab6fdc776c42d289611b11f80
-    SHA512 9e9633c375f2bcd2b076cdb5b7271a20bbc8ba084ab2a344bedb29cc409b3726c80da7e6adbdd9679a0fc0373c416d8fdb86f8fd6191e7948d0ce461a429684f
-    HEAD_REF feature/package
+    REF 919c2914252128fc6951aeed6ef5b2748b961380
+    SHA512 29583c71ce8d5d4846c87f6c815ec4c315ae30e479a99eee2f95da2707ffd99560173604d8f2772d8f45c775ad35ec50a2c5b2fd38392246e906d884efa4a8f9
+    HEAD_REF master
 )
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
