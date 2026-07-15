@@ -1,7 +1,7 @@
 {
   "default": {
     "stringpool": {
-      "baseline": "2.0.0",
+      "baseline": "4.0.0",
       "port-version": 0
     }
   }

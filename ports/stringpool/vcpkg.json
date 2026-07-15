@@ -1,6 +1,6 @@
 {
   "name": "stringpool",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "description": "String interning library",
   "homepage": "https://github.com/geoff-m/stringpool",
   "license": "BSD-2-Clause",
